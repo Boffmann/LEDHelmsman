@@ -9,6 +9,7 @@ private:
 
 public:
 	RGB(int red, int green, int blue); 
+	RGB();
 
 	int red();
 	int green();
@@ -17,8 +18,6 @@ public:
 	void setRed(int red);
 	void setGreen(int green);
 	void setBlue(int blue);
-	
-
 };
 
 #endif
